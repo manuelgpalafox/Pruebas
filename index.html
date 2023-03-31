@@ -7,11 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script>
+        jQuery(function($){
+            var $navbar = $('.navigation_top');
+            $(window).scroll(function(event){
+                var $current = $(this).scrollTop();
+                if($current>0){
+                    $navbar.addClass('navigation_top_color');
+                }
+                else{
+                    $navbar.removeClass('navigation_top_color');
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
 
-    <div id="navigation_top">
+    <div class="navigation_top">
         <div class="container">
             <div class="wrap">
                 <div id="logo">
@@ -25,8 +40,10 @@
                         <li><a href="">Fraccionamiento</a></li>
                         <li><a href="">Instalaciones</a></li>
                         <li><a href="">Contacto</a></li>
-                        <li><a href="">6621468256</a></li>
-                        <li><a href="">Hacer una cita</a></li>
+                        <li class="nav-whatsapp">
+                            <div class="nav-whatsapp-logo"></div><a href="">662 146 8256</a>
+                        </li>
+                        <li class="background-gradient"><a href="">Hacer una cita</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,7 +55,7 @@
         <div class="page_conent">
             <header>
                 <div class="info_header">
-                    <h2>todo lo que<br>buscabas de un</h2>
+                    <h5>todo lo que<br>buscabas de un</h5>
                     <h1>residencial<br>campestre</h1>
                 </div>
 
@@ -57,7 +74,7 @@
                                         <p>----------</p>
                                     </div>
                                     <div>
-                                        <h3>nosotros</h3>
+                                        <h4>nosotros</h4>
                                     </div>
                                 </div>
                                 <div class="bienvenido2">
@@ -69,9 +86,12 @@
                                     </h2>
                                 </div>
                                 <div class="bienvenido3">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere officiis nisi
-                                    sequi odit assumenda unde quia aspernatur nemo voluptatem? Nostrum, dolore!
-                                    Consectetur accusamus vero aspernatur expedita dolorum ipsam tempore?
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere officiis
+                                        nisi
+                                        sequi odit assumenda unde quia aspernatur nemo voluptatem? Nostrum, dolore!
+                                        Consectetur accusamus vero aspernatur expedita dolorum ipsam tempore?
+                                    </p>
                                 </div>
                                 <div class="bienvenido4">
                                     <a href="">Contactar a un asesor --></a>
