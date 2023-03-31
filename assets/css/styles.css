@@ -1,0 +1,323 @@
+/*Pressets*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    width: 950px;
+}
+
+.container_page {
+    width: 100%;
+}
+
+.page_content {
+    margin: 0 auto;
+    width: 2000px;
+}
+
+#navigation_top {
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+#navigation_top .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Estilos header*/
+
+header {
+    height: 550px;
+    width: 100%;
+    background-image: url(../cover_background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#separator {
+    height: 10px;
+    background: linear-gradient(to bottom right, #c09b71, #8c683e);
+}
+
+/*Estilos nosotros*/
+
+.nosotros_bienvenido .container .wrap {
+    display: flex;
+}
+
+.nosotros_bienvenido {
+    height: 500px;
+    background-color: #3c4544;
+}
+
+.section1 {
+    height: 300px;
+    width: 30%;
+    padding-top: 50px;
+}
+
+.section1 .bienvenido {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.section1 .bienvenido2 h2 {
+    margin: 0 auto;
+}
+
+.section2 {
+    padding-top: 50px;
+    height: 300px;
+    width: 70%;
+}
+
+.section2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+}
+
+.section3 .hectareas {
+    width: 33.3%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.section3 .minutos {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section3 .amenidades {
+    width: 33.3%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.bienvenido3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.wrap2 {
+    padding-top: 5px;
+}
+
+.bienvenido4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nosotros_contamos {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.nosotros_contamos1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.nosotros_contamos1 .mitad {
+    width: 50%;
+    height: 500px;
+}
+
+.nosotros_contamos1 .mitad2 {
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.nosotros_contamos1 .mitad2 .bienvenido {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nosotros_contamos1 .mitad2 .bienvenido4 a {
+    color: black;
+}
+
+.nosotros_contamos_img {
+    width: 60%;
+    height: 500px;
+    position: absolute;
+}
+
+.nosotros_contamos_img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.nosotros_contamos .container h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.nosotros_contamos .container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nosotros_armonia {
+    height: 500px;
+    background-color: #ffffff;
+}
+
+.nosotros_armonia .bienvenido {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nosotros_armonia .container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nosotros_armonia_img {
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    padding-left: 45%;
+}
+
+.nosotros_armonia_img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.nosotros_armonia1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.nosotros_armonia1 .mitad {
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding-right: 145px;
+    /*padding-left: 50px;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.nosotros_armonia1 .mitad2 {
+    width: 50%;
+    height: 500px;
+}
+
+.nosotros_armonia .mitad .bienvenido4 a {
+    color: black;
+}
+
+/*Inicio estilos sección Fraccionamiento*/
+
+.fraccionamiento {
+    height: 500px;
+    width: 100%;
+    background-color: #3d4643;
+}
+
+.fraccionamiento .mitad{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fraccionamiento .mitad .container{
+    height: 100%;
+}
+
+.fraccionamiento .mitad2{
+    height: 50%;
+}
+
+.fraccionamiento .container .encabezado{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.fraccionamiento .container .texto{
+    padding-top: 30px;
+}
+
+.fraccionamiento .container .texto h2{
+    padding: 0;
+    margin: 0;
+}
+
