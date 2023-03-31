@@ -452,12 +452,44 @@ header {
     justify-content: center;
 }
 
+.fraccionamiento .mitad h2{
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
 .fraccionamiento .mitad .container{
     height: 100%;
 }
 
 .fraccionamiento .mitad2{
     height: 50%;
+}
+
+.fraccionamiento .mitad2 .container{
+    height: 100%;
+    display: flex;
+}
+
+.fraccionamiento .mitad2 .container{
+    height: 100%;
+    display: flex;
+}
+
+.fraccionamiento .mitad2 .container .ubicacion{
+    width: 25%;
+    padding-top: 7%;
+}
+
+.fraccionamiento .mitad2 .container .ubi-icon{
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 100px;
+    height: 55px;
+}
+
+.fraccionamiento .mitad2 .container .ubi-icon img{
+    object-fit: cover;
+    height: 100%;
 }
 
 .fraccionamiento .container .encabezado{
